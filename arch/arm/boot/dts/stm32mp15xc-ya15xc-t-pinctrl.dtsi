@@ -908,7 +908,7 @@
 			//ya15xc-t debug
 			uart4_pins_mx: uart4_mx-0 {
                                 pins1 {
-                                        pinmux = <STM32_PINMUX('A', 11, AF6)>;
+                                        pinmux = <STM32_PINMUX('B', 2, AF6)>;
                                         bias-disable;
                                 };
                                 pins2 {
@@ -921,7 +921,7 @@
 
                         uart4_sleep_pins_mx: uart4_sleep_mx-0 {
 				 pins {
-                                        pinmux = <STM32_PINMUX('A', 11, ANALOG)>, /* UART4_RX */
+                                        pinmux = <STM32_PINMUX('B', 2, ANALOG)>, /* UART4_RX */
                                                 <STM32_PINMUX('G', 11, ANALOG)>; /* UART4_TX */
                                 };
                         };
