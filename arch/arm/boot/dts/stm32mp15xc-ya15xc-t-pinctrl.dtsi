@@ -925,38 +925,7 @@
                                                 <STM32_PINMUX('G', 11, ANALOG)>; /* UART4_TX */
                                 };
                         };
-			
-
-			uart4_pins_a: uart4-0 {
-				pins1 {
-					pinmux = <STM32_PINMUX('G', 11, AF6)>; /* UART4_TX */
-					bias-disable;
-					drive-push-pull;
-					slew-rate = <0>;
-				};
-				pins2 {
-					pinmux = <STM32_PINMUX('B', 2, AF8)>; /* UART4_RX */
-					bias-disable;
-				};
-			};
-
-			uart4_idle_pins_a: uart4-idle-0 {
-				pins1 {
-					pinmux = <STM32_PINMUX('G', 11, ANALOG)>; /* UART4_TX */
-				};
-				pins2 {
-					pinmux = <STM32_PINMUX('B', 2, AF8)>; /* UART4_RX */
-					bias-disable;
-				};
-			};
-
-			uart4_sleep_pins_a: uart4-sleep-0 {
-				pins {
-					pinmux = <STM32_PINMUX('G', 11, ANALOG)>, /* UART4_TX */
-						 <STM32_PINMUX('B', 2, ANALOG)>; /* UART4_RX */
-				};
-			};
-		      //end
+      //end
 
 			uart5_pins_a: uart5-0 {
                                 pins1 {
